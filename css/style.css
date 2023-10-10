@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+﻿/********** Template CSS **********/
 :root {
     --primary: #21516c ;
     --secondary: #51CFED;
@@ -473,4 +473,27 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+.alert {
+    position: fixed !important;
+    padding: .75rem 1rem !important;
+    margin-bottom: 0px !important;
+    border: 1px solid transparent;
+    top: 20vh;
+    right: 20px;
+    /* transform: translate(50%,50%); */
+    z-index: 9;
+    min-width: 200px;
+    max-width: 45%;
+    text-align: center;
+}
+video{
+    width: 100%; height: 60vh !important;
+}
+
+
+@media (max-width:800px){
+    video{
+    width: 100%; height: 30vh !important;
+}
 }
